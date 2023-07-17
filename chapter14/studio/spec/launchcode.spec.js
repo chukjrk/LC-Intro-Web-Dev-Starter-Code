@@ -12,7 +12,7 @@ describe("Testing launchcode", function () {
   });
 
   it("checks programs", function () {
-    expect(launchcode.programsOffered).toContain("LC11");
+    expect(launchcode.programsOffered).toContain("LC101");
     expect(launchcode.programsOffered).toContain("LaunchCode Women+");
     expect(launchcode.programsOffered).toContain("CodeCamp");
     expect(launchcode.programsOffered.length).toEqual(3);
